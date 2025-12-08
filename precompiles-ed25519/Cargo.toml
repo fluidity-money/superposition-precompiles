@@ -1,0 +1,17 @@
+[package]
+name = "precompiles-ed25519"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+array-concat = "0.5.5"
+bobcat-sdk.workspace = true
+ed25519-dalek = { version = "2.2.0", default-features = false, features = ["digest"] }
+sha2 = { version = "0.10.9", default-features = false }
+
+[features]
+std = ["bobcat-sdk/std"]
+
+[dev-dependencies]
+concat-arrays = "0.1.2"
+proptest = "1.9.0"

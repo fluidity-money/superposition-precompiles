@@ -1,0 +1,5 @@
+superposition-precompiles.wasm
+*.wat
+*.wasm1
+target
+out
