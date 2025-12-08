@@ -12,4 +12,6 @@ Deployed by address `0x37f8c060dbeb1786deb6a88f387200642122be76` to
 
 ## Testing
 
+Online testing is tested with bobcat-sdk.
+
 	./tests.sh
