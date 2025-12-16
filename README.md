@@ -18,8 +18,8 @@ no precomputed	Ed25519COMPARISON:test_fuzzEd25519(bytes32,bytes) (runs: 257, μ:
 
 ## Muldiv using Ruint
 
-Deployed by address `0xed888d33db1bd4f076ba86638f80c14aada9c2fa` to
-`0x6c483d05266cda72cfe72643a79ad531d9b52cd5` on Superposition Mainnet, Superposition
+Deployed by address `0x11083929e0e409b4720bfe49d894f1df9ebcb294` to
+`0x7a9579a78d6ea3279b33d6d0f92a2fe8fd0e2662` on Superposition Mainnet, Superposition
 Testnet, and Arbitrum One.
 
 ## Building
