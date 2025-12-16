@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.0;
 
-library MulDiv {
+library muldiv {
     function mul_div(uint256 x, uint256 y, uint256 z) external view returns (
         bool wasOverflow,
         uint256 answer
@@ -12,7 +12,7 @@ library MulDiv {
     }
 }
 
-library Edphverify {
+library edphverify {
     function edphverify(
         bytes32 digestA,
         bytes32 digestB,
