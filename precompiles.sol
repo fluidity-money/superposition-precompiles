@@ -6,14 +6,14 @@ library muldiv {
         bool wasOverflow,
         uint256 answer
     ) {
-        (bool rc, bytes memory rd) = 0x6c483D05266CDa72cFE72643A79Ad531d9B52cd5.staticcall(abi.encode(x, y, z));
+        (bool rc, bytes memory rd) = 0x7A9579a78D6eA3279B33d6d0f92A2Fe8Fd0E2662.staticcall(abi.encode(x, y, z));
         assert(rc);
         return abi.decode(rd, (bool, uint256));
     }
 }
 
 library edphverify {
-    function edphverify(
+    function verify(
         bytes32 digestA,
         bytes32 digestB,
         bytes32 publicKey,
