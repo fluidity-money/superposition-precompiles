@@ -1,0 +1,8 @@
+[package]
+name = "precompiles-sha512"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bobcat-sdk = { version = "0.7.29", features = ["alloc"] }
+sha2 = "0.10.9"

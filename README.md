@@ -22,6 +22,11 @@ Deployed by address `0x11083929e0e409b4720bfe49d894f1df9ebcb294` to
 `0x7a9579a78d6ea3279b33d6d0f92a2fe8fd0e2662` on Superposition Mainnet, Superposition
 Testnet, and Arbitrum One.
 
+## Sha512
+
+Deployed by address `0xc64566e8dfdbbbf57e253d3e6720a261095feddc` to
+`0x1f4350205a556587ff3a1f2cb627613685dacb73` on Superposition and Arbitrum One.
+
 ## Building
 
 	make
