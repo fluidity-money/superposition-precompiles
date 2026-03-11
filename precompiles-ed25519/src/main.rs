@@ -18,8 +18,7 @@ impl OutputSizeUser for PrecomputedSha512 {
 
 impl Update for PrecomputedSha512 {
     fn update(&mut self, data: &[u8]) {
-        let len = data.len().min(64);
-        self.0[..len].copy_from_slice(&data[..len]);
+        panic!("i shouldn't be called");
     }
 }
 
