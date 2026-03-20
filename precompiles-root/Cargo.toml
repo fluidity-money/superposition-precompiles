@@ -1,0 +1,9 @@
+[package]
+name = "precompiles-root"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alloy-primitives = { version = "1.5.7", default-features = false }
+bobcat-sdk = { version = "0.7.7", features = ["panic-revert", "ruint-enabled"] }
+mini-alloc = "1.0.0"

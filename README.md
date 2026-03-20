@@ -27,6 +27,11 @@ Testnet, and Arbitrum One.
 Deployed by address `0xc64566e8dfdbbbf57e253d3e6720a261095feddc` to
 `0x1f4350205a556587ff3a1f2cb627613685dacb73` on Superposition and Arbitrum One.
 
+## Checked root using ruint
+
+Deployed by address `0x9d955403685028d029ef968287e45ccd30ae7e5f` to
+`0xe0efe3de50d40452bc53317e16a1b69764e2b1b2` on Superposition.
+
 ## Building
 
 	make
