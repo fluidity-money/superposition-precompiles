@@ -3,3 +3,4 @@ superposition-precompiles.wasm
 *.wasm1
 target
 out
+*.o
