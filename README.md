@@ -32,6 +32,10 @@ Deployed by address `0xc64566e8dfdbbbf57e253d3e6720a261095feddc` to
 Deployed by address `0x9d955403685028d029ef968287e45ccd30ae7e5f` to
 `0xe0efe3de50d40452bc53317e16a1b69764e2b1b2` on Superposition.
 
+## XZ decompressor
+
+Deployed by address `0xedfa722618cfb98c1c43fa9e9e4d3697064ee85b` to `0xc640a98ea2809dc65ad58385bbdd9038c529d5e5` on Arbitrum One.
+
 ## Building
 
 	make
